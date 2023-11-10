@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="CBmenu.css">
+    <script src="https://kit.fontawesome.com/d64389bed0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!--NAV BAR-->
+    <header>
+        
+        <nav class="navbar">
+            
+            <img src="imgcoffee/coffee.jpeg" width="100" class="logo">
+            <ul class="nav-menu">
+
+
+                <li class="nav-item">
+                    <a href="coffeebreak.html" class="nav-link">
+                        <i class="fa-solid fa-house"></i>Inicio
+                    </a>
+                </li>
+    
+                
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">
+                        <i class="fa-solid fa-address-book"></i>Contactanos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.google.com/maps/place/Koffee+Break/@13.780493,-89.1213476,17z/data=!4m6!3m5!1s0x8f633914575339bd:0x3c3793a127279178!8m2!3d13.7804878!4d-89.1187673!16s%2Fg%2F11hzzylbrs?entry=ttu"target="_blank" class="nav-link">
+                        <i class="fa-solid fa-location-dot"></i>Ubicacion
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+               
+                    
+                    
+                
+           
+           
+        </nav>
+    </header>
+
+    <main>
+
+            <div class="full-img" id="fullImgBox">
+                <img src="" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+                <button class="pedir"><a href="https://wa.me/+50379792438?ext=Hola,%20me%20gustaría%20hacer%20una%20orden..." target="_blank">ordenar! <i class="fa-solid fa-arrow-right fa-beat-fade"></i></a></button>
+            </div>
+
+            <h2>Postres</h2>
+        <div class="img-gallery">
+            <img src="imgcoffee/postres2.jpeg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+            <img src="imgcoffee/cheesecake.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/postres.jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/quesadilla.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            
+            
+        </div>
+
+        <h2>Cocina Mexicana</h2>
+
+        
+        <div class="img-gallery">
+        <img src="imgcoffee/cocinaMexicana (1).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+        <img src="imgcoffee/tacos1.jpg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+            <img src="imgcoffee/cocinaMexicana (2).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/burrito.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/cocinaMexicana (3).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/quesadilla.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/cocinaMexicana (4).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+            <img src="imgcoffee/todounpoco.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+        </div>
+
+        <h2>Bebidas</h2>
+
+        <div class="img-gallery">
+            <img src="imgcoffee/bebidas (1).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+                <img src="imgcoffee/bebidas (2).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+                <img src="imgcoffee/bebidas (3).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+                <img src="imgcoffee/tamarindo.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+                <img src="imgcoffee/bebidas (4).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+                <img src="imgcoffee/bebidas (5).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)"> 
+                <img src="imgcoffee/bebidas (6).jpeg" loading="lazy";  onclick="OpenFullImg(this.src)">
+                <img src="imgcoffee/frappe2.jpg" loading="lazy";  onclick="OpenFullImg(this.src)">
+                
+                
+            </div>
+
+          
+
+
+
+
+</main>
+<footer>
+    <section id="Contact">
+    <hr>
+    <div class="social-media">
+        <a href="https://www.instagram.com/koffeebreaksv/" target="_blank">
+            <i class="fa-brands fa-instagram fa-beat-fade"></i>
+        </a>
+        <a href="https://www.facebook.com/koffeebreakbarsv" target="_blank">
+            <i class="fa-brands fa-facebook fa-beat-fade"></i>
+        </a>
+        <a href="https://wa.me/50370482713?ext=Hola,%20me%20gustaría%20hacer%20una%20orden..." target="_blank">
+            <i class="fa-brands fa-whatsapp fa-beat-fade"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fa-solid fa-envelope fa-beat-fade"></i>
+        </a>
+    </div>
+    <p class="copyright">&copy; 2023 Walter Palacios. All rights reserved.</p>
+</section>
+</footer>
+
+
+
+
+<script src="CBmenu.js"></script>
+</body>
+</html>
