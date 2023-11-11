@@ -29,3 +29,13 @@ navMenu.classList.remove("active");
   function closeFullImg(){
     fullImgBox.style.display ="none";
   }
+
+ //PRELOADER
+
+let loader = document.getElementById('preloader')
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+
+
+})
